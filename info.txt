@@ -1,0 +1,20 @@
+Pins available for my thermostat
+Rc O B Rh W Y G
+
+G is the blower pin, which is easiest to check. When system is set to cold and fan is set to on, Rc and G are shorted
+
+Rc is supposed to be the cold side power. The power pins (R, Rc, Rh) are supposed to be 24V apparently, but mine are more like 28V.
+
+When cooling is turned on, Rc is shorted to O Y G
+
+When heating is turned on, Rh is shorted to B W, but not G. Y and G are shorted for some reason though...
+When the fan is force on in heating mode, Rc is shorted to G.
+
+The fan turns on when either Rc or Rh are shorted to G.
+
+In the wall side, the Rh and Rc are tied together, O and B are not connected.
+
+In my system, the blower is forced on by the furnace after it has started, and for some time after it stops. It's the same blower as for cooling I'm pretty sure. But this is why the fan doesn't get turned on by the thermostat, the furnace turns it on automatically.
+
+Confirmed, same fan for both. The air conditioner is simply turned on by a wire pair, C (common) and Y (cooling), and this is independent of the blower, so the blower must be explicitly turned on with the cooling.
+
